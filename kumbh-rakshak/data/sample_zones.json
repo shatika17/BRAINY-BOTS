@@ -1,0 +1,14 @@
+{
+  "thresholds": { "green_below": 200, "yellow_below": 400, "note": "400 or more = red" },
+  "zones": [
+    { "id": 0, "name": "Main Gate", "people": 200 },
+    { "id": 1, "name": "Market Chowk", "people": 434 },
+    { "id": 2, "name": "Sangam Ghat", "people": 495 },
+    { "id": 3, "name": "Parking Zone", "people": 211 },
+    { "id": 4, "name": "Police Junction", "people": 234 },
+    { "id": 5, "name": "North Bridge", "people": 324 },
+    { "id": 6, "name": "Shelter Area", "people": 172 },
+    { "id": 7, "name": "Hospital Camp", "people": 60 },
+    { "id": 8, "name": "Gate 4", "people": 160 }
+  ]
+}

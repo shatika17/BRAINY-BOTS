@@ -1,0 +1,11 @@
+{
+  "services": [
+    { "type": "Restroom", "name": "Public Restroom 12", "zone": "Market Chowk" },
+    { "type": "Restroom", "name": "Toilet Block A", "zone": "Main Gate" },
+    { "type": "Water", "name": "Water Tank 1", "zone": "Market Chowk" },
+    { "type": "Medical", "name": "Main Hospital", "zone": "Hospital Camp" },
+    { "type": "Medical", "name": "First Aid Post", "zone": "Market Chowk" },
+    { "type": "Police", "name": "Police Booth", "zone": "Police Junction" },
+    { "type": "Shelter", "name": "Relief Shelter", "zone": "Shelter Area" }
+  ]
+}

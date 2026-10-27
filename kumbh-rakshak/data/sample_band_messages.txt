@@ -1,0 +1,5 @@
+# Format: x,y,battery,panic   (metres from the meeting point)
+20,10,100,0     child inside the 100 m safe zone
+60,10,98,0      still inside
+150,10,95,0     outside the safe zone -> geofence alert
+20,10,90,1      panic button pressed -> panic alert
