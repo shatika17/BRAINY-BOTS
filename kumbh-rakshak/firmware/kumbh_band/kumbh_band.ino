@@ -42,9 +42,9 @@ const double BASE_LON = 81.8463;
 #define BATT_PIN   34
 
 // Nordic UART style UUIDs - the app must use the SAME values
-#define SERVICE_UUID "6e400001-b5a3-f393-e0a9-e50e24dcca9e"
-#define RX_UUID      "6e400002-b5a3-f393-e0a9-e50e24dcca9e"   // app -> band (write)
-#define TX_UUID      "6e400003-b5a3-f393-e0a9-e50e24dcca9e"   // band -> app (notify)
+#define SERVICE_UUID "0000ffe0-0000-1000-8000-00805f9b34fb"
+#define RX_UUID      "0000ffe1-0000-1000-8000-00805f9b34fb"// app -> band (write)
+#define TX_UUID      "0000ffe1-0000-1000-8000-00805f9b34fb"// band -> app (notify)
 
 #if USE_GPS
   #include <TinyGPSPlus.h>
